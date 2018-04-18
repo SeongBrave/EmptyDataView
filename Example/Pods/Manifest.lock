@@ -1,0 +1,26 @@
+PODS:
+  - EmptyDataView (0.0.1):
+    - RxCocoa (~> 4.1.2)
+    - RxSwift (~> 4.1.2)
+    - SnapKit (~> 4.0.0)
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+  - SnapKit (4.0.0)
+
+DEPENDENCIES:
+  - EmptyDataView (from `../`)
+
+EXTERNAL SOURCES:
+  EmptyDataView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  EmptyDataView: da2f20af9cdd3eb8749550a6e74f03384afb6c95
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+
+PODFILE CHECKSUM: 3f00973026f2c6c22a10d3e9472c2380c6de64f1
+
+COCOAPODS: 1.4.0

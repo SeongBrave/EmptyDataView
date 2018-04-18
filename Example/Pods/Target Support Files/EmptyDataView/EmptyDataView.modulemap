@@ -1,0 +1,6 @@
+framework module EmptyDataView {
+  umbrella header "EmptyDataView-umbrella.h"
+
+  export *
+  module * { export * }
+}
