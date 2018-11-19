@@ -42,7 +42,7 @@ public protocol EmptyDataSource: class {
      - Returns: 按钮标题
      
      */
-    func buttonTitle(emptyView scrollView: UIScrollView, state: UIControlState) -> NSAttributedString?
+    func buttonTitle(emptyView scrollView: UIScrollView, state: UIControl.State) -> NSAttributedString?
     
     /**
      配置空数据时显示的按钮图片
@@ -54,7 +54,7 @@ public protocol EmptyDataSource: class {
      - Returns: 按钮图片
      
      */
-    func buttonImage(emptyView scrollView: UIScrollView, state: UIControlState) -> UIImage?
+    func buttonImage(emptyView scrollView: UIScrollView, state: UIControl.State) -> UIImage?
     
     /**
      配置空数据时显示的按钮背景图片
@@ -66,7 +66,7 @@ public protocol EmptyDataSource: class {
      - Returns: 按钮背景图片
      
      */
-    func buttonBackgroundImage(emptyView scrollView: UIScrollView, forState state: UIControlState) -> UIImage?
+    func buttonBackgroundImage(emptyView scrollView: UIScrollView, forState state: UIControl.State) -> UIImage?
     
     /**
      配置空数据时显示背景颜色
@@ -121,7 +121,7 @@ public extension EmptyDataSource {
      - Returns: 按钮标题
      
      */
-    func buttonTitle(emptyView scrollView: UIScrollView, state: UIControlState) -> NSAttributedString? { return nil }
+    func buttonTitle(emptyView scrollView: UIScrollView, state: UIControl.State) -> NSAttributedString? { return nil }
     
     /**
      配置空数据时显示的按钮图片
@@ -133,7 +133,7 @@ public extension EmptyDataSource {
      - Returns: 按钮图片
      
      */
-    func buttonImage(emptyView scrollView: UIScrollView, state: UIControlState) -> UIImage? { return nil }
+    func buttonImage(emptyView scrollView: UIScrollView, state: UIControl.State) -> UIImage? { return nil }
     
     /**
      配置空数据时显示的按钮背景图片
@@ -145,7 +145,7 @@ public extension EmptyDataSource {
      - Returns: 按钮背景图片
      
      */
-    func buttonBackgroundImage(emptyView scrollView: UIScrollView, forState state: UIControlState) -> UIImage? { return nil }
+    func buttonBackgroundImage(emptyView scrollView: UIScrollView, forState state: UIControl.State) -> UIImage? { return nil }
     
     /**
      配置空数据时显示背景颜色
