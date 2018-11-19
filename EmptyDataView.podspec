@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EmptyDataView'
-  s.version          = '0.0.1'
+  s.version          = '0.1.0'
   s.summary          = 'TableView与Collectionview空数据时显示的view'
 
 # This description is used to generate tags and improve search results.
