@@ -30,10 +30,10 @@ TODO: uitableview 或uicollectionview 为空的界面显示
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'EmptyDataView/Classes/**/*'
-  s.dependency 'RxSwift', '~> 4.1.2'  #依赖关系，该项目所依赖的其他库，如果有多个需要填写多个s.dependency
-  s.dependency 'RxCocoa', '~> 4.1.2'
+  s.dependency 'RxSwift', '~> 4.4.0'  #依赖关系，该项目所依赖的其他库，如果有多个需要填写多个s.dependency
+  s.dependency 'RxCocoa', '~> 4.4.0'
   #autolayout的封装
-  s.dependency 'SnapKit', '~> 4.0.0'
+  s.dependency 'SnapKit', '~> 4.2.0'
   
   # s.resource_bundles = {
   #   'EmptyDataView' => ['EmptyDataView/Assets/*.png']

@@ -2,7 +2,6 @@ use_frameworks!
 
 target 'EmptyDataView_Example' do
   pod 'EmptyDataView', :path => '../'
-   pod 'UtilCore', '~> 0.0.1'
   target 'EmptyDataView_Tests' do
     inherit! :search_paths
 

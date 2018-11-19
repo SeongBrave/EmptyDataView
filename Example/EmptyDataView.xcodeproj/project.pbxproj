@@ -14,8 +14,6 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		C7E704EA2D36663A2FA81F41 /* Pods_EmptyDataView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD75CA8F03D5E6F592428911 /* Pods_EmptyDataView_Tests.framework */; };
-		C90A2C1F2087805200A015AF /* Test_TVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A2C1E2087805200A015AF /* Test_TVc.swift */; };
-		C90A2C212087805F00A015AF /* Test_CVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A2C202087805F00A015AF /* Test_CVc.swift */; };
 		D0FD5B4F8ED7F6E15E924BD3 /* Pods_EmptyDataView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E4BDA1A50FBAED1C511C240 /* Pods_EmptyDataView_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,8 +43,6 @@
 		8E4BDA1A50FBAED1C511C240 /* Pods_EmptyDataView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmptyDataView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A620604B84FE4A943C3F7BE /* Pods-EmptyDataView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmptyDataView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmptyDataView_Example/Pods-EmptyDataView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A143E94103B4A65ADF4EEE53 /* Pods-EmptyDataView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmptyDataView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmptyDataView_Example/Pods-EmptyDataView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C90A2C1E2087805200A015AF /* Test_TVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_TVc.swift; sourceTree = "<group>"; };
-		C90A2C202087805F00A015AF /* Test_CVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_CVc.swift; sourceTree = "<group>"; };
 		CD75CA8F03D5E6F592428911 /* Pods_EmptyDataView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmptyDataView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D328A21C92201DF24C707139 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DD6A31778983A83553AE1847 /* Pods-EmptyDataView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmptyDataView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmptyDataView_Tests/Pods-EmptyDataView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,8 +99,6 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
-				C90A2C1E2087805200A015AF /* Test_TVc.swift */,
-				C90A2C202087805F00A015AF /* Test_CVc.swift */,
 			);
 			name = "Example for EmptyDataView";
 			path = EmptyDataView;
@@ -177,7 +171,6 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				A83DEEC9FD08B0B292132712 /* [CP] Embed Pods Frameworks */,
-				AC37BFA1E050F76AD01423AA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,8 +189,6 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				42E7D6B274275EA4E3AC21E8 /* [CP] Embed Pods Frameworks */,
-				30CA38A7251E32718DEBD2EA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -221,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 6GU5V4X2VU;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 6GU5V4X2VU;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -270,36 +263,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		30CA38A7251E32718DEBD2EA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmptyDataView_Tests/Pods-EmptyDataView_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		42E7D6B274275EA4E3AC21E8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmptyDataView_Tests/Pods-EmptyDataView_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		629F174EC725D33FB14A05E9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -325,60 +288,23 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-EmptyDataView_Example/Pods-EmptyDataView_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/EmptyDataView/EmptyDataView.framework",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
-				"${BUILT_PRODUCTS_DIR}/ModelProtocol/ModelProtocol.framework",
-				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework",
-				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
-				"${BUILT_PRODUCTS_DIR}/URLNavigator/URLNavigator.framework",
-				"${BUILT_PRODUCTS_DIR}/UtilCore/UtilCore.framework",
-				"${BUILT_PRODUCTS_DIR}/WebViewJavascriptBridge/WebViewJavascriptBridge.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EmptyDataView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ModelProtocol.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyUserDefaults.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/URLNavigator.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UtilCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebViewJavascriptBridge.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmptyDataView_Example/Pods-EmptyDataView_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AC37BFA1E050F76AD01423AA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmptyDataView_Example/Pods-EmptyDataView_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D217AE8039ED0CFA34FA6DE5 /* [CP] Check Pods Manifest.lock */ = {
@@ -406,8 +332,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C90A2C212087805F00A015AF /* Test_CVc.swift in Sources */,
-				C90A2C1F2087805200A015AF /* Test_TVc.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -559,10 +483,11 @@
 			baseConfigurationReference = A143E94103B4A65ADF4EEE53 /* Pods-EmptyDataView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6GU5V4X2VU;
 				INFOPLIST_FILE = EmptyDataView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = seongbrave.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -574,10 +499,11 @@
 			baseConfigurationReference = 9A620604B84FE4A943C3F7BE /* Pods-EmptyDataView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6GU5V4X2VU;
 				INFOPLIST_FILE = EmptyDataView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = seongbrave.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -588,6 +514,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DD6A31778983A83553AE1847 /* Pods-EmptyDataView_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 6GU5V4X2VU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -609,6 +536,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E4CA0571C96BBC14ABBB0B67 /* Pods-EmptyDataView_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 6GU5V4X2VU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
